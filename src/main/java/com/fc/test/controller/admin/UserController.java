@@ -41,7 +41,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "用户数据")
 @Controller
 @RequestMapping("/UserController")
-public class UserController extends BaseController{
+public class 	UserController extends BaseController{
 	
 	private String prefix = "admin/user";
 	//部门

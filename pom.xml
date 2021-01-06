@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example</groupId>
-	<artifactId>springboot_v2</artifactId>
-	<packaging>war</packaging>
-	<name>springboot_v2</name>
-	<description>springbootv2系统</description>
+	<groupId>com.nyaxs</groupId>
+	<artifactId>liveshow</artifactId>
+	<packaging>jar</packaging>
+	<name>liveshow</name>
+	<description>liveshow系统</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -65,12 +65,17 @@
 			<artifactId>pagehelper-spring-boot-starter</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-		<!-- mysql驱动7.0-->
+		<!-- mysql驱动7.0
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-		</dependency> 
-
+		</dependency>
+		-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.22</version>
+		</dependency>
 		<!-- mysql驱动8.0
 		 <dependency> 
 		 	<groupId>mysql</groupId> 

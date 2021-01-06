@@ -16,13 +16,11 @@ public class SpringbootStart {
     public static void main(String[] args) {
 
         SpringApplication.run(SpringbootStart.class, args);
-        System.out.println("*******************************************\n" + 
-        		"* 码云地址                                  *\n" +
-        		"* https://gitee.com/bdj/SpringBoot_v2     *\n" + 
+        System.out.println(
         		"*                                         *\n" + 
         		"*******************************************\n" + 
         		"           _.._        ,-------------------.\n" + 
-        		"        ,'      `.    ( 启动成功！开启学习之旅！      )\n" + 
+        		"        ,'      `.    ( 大威天龙，心无Bug      )\n" +
         		"       /  __) __` \\    `-,-----------------'\n" + 
         		"      (  (`-`(-')  ) _.-'\n" + 
         		"      /)  \\  = /  (\n" + 
@@ -46,6 +44,8 @@ public class SpringbootStart {
         		"   /        _/[\"---'\"\"]\n" + 
         		"  :        /  |\"-     '\n" + 
         		"  '           |      /\n" + 
-        		"              `      |");
+        		"              `      |" +
+				"*******************************************\n"
+		);
     }
 }

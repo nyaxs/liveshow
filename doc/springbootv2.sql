@@ -13,7 +13,7 @@
 
  Date: 06/12/2020 22:30:45
 */
-
+use rtc;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
